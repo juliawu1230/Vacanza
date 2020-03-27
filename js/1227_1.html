@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link rel="stylesheet" href="1227.css" media="screen and (min-width:1000px)">
+    <link rel="stylesheet" href="1227phone.css" media="screen and (max-width:999px)">
+    <script src="https://kit.fontawesome.com/a18f7de081.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Lobster|Merriweather|Montserrat:100,100i,200,200i,300,300i,400,400i,500,600,700,800,900,900i|Parisienne|Quicksand|Satisfy&display=swap" rel="stylesheet">    <link href="bxslider/jquery.bxslider.css" rel="stylesheet">
+    <link href="slick/slick.css" rel="stylesheet">
+    <link href="slick/slick-theme.css" rel="stylesheet">
+    <script src="bxslider/jquery-1.12.3.min.js"></script>
+    <script src="bxslider/jquery.bxslider.js"></script>
+    <script src="slick/slick.js"></script>
+    <script src="https://kit.fontawesome.com/a18f7de081.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <script>
+        $('document').ready(function () {
+            $('.menu a').click(function(){
+                $('.navigator').animate({
+                    right:0
+                },600);
+
+            });
+            $('.navigator i').click(function(){
+                $('.navigator').animate({
+                    right:'-330px'
+                },600);
+            });
+
+            $('.slider ul').bxSlider({
+                mode: 'fade',
+                auto: true,
+                controls: false,
+                pager: false,
+            });
+            $('.slick_slider').slick();
+        });
+    </script>
+</head>
+
+<body>
+    <header class="full-width clearfix">
+        <div class="fixed-width">
+            <h1>Altitude<span>By Pixelarity</span></h1>
+            <div class="menu">
+                <a href="#">menu<i class="fas fa-bars"></i></a>
+            </div>
+        </div>
+    </header>
+    <div class="navigator">
+        <p><i><i class="fas fa-times"></i></i></p>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Generic</a></li>
+            <li><a href="#">Elements</a></li>
+        </ul>
+        <a href="#">Sign Up</a>
+        <a href="#">Log in</a>
+    </div>
+    <div class="full-width banner clearfix">
+        <div class="fixed-width">
+            <div class="slider">
+                <ul>
+                    <li><img src="images/banner.jpg"></li>
+                    <li><img src="images/eliabe-costa-tzsUJD0TGkk-unsplash.jpg"></li>
+                    <li><img src="images/alfons-morales-YLSwjSy7stw-unsplash.jpg"></li>
+                </ul>
+
+            </div>
+            <div class="main">
+                <div>
+                    <h2>SED LOREM</h2>
+                    <p>Sed egestas, ante vulputate volutpat vitae luctus metus libero aliquam</p>
+                    <a href="#">MORE</a>
+                </div>
+                <div>
+                    <h2>SED LOREM</h2>
+                    <p>Sed egestas, ante vulputate volutpat vitae luctus metus libero aliquam</p>
+                    <a href="#">MORE</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="full-width icon clearfix">
+        <div class="fixed-width">
+            <h2>LOREM IPSUM DOLOR</h2>
+            <p>Sed egestas adipiscing</p>
+            <div class="item">
+                <div>
+                    <i><i class="fas fa-air-freshener"></i></i>
+                    <h3>ULTRICES ALIQUAM</h3>
+                    <p>Lorem ipsum dolor sit amet nullam feugiat tempus</p>
+                </div>
+                <div>
+                    <i><i class="far fa-lightbulb"></i></i>
+                    <h3>LOREM SED NULLAM</h3>
+                    <p>Lorem ipsum dolor sit amet nullam feugiat tempus</p>
+                </div>
+                <div>
+                    <i><i class="fas fa-camera"></i></i>
+                    <h3>ALIQUAM FEUGIAT</h3>
+                    <p>Lorem ipsum dolor sit amet nullam feugiat tempus</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="full-width banner_b">
+        <div class="fixed-width">
+            <div class="slick_slider">
+                <div class="item">
+                    <div>
+                        <img src="images/think.jpg">
+                    </div>
+                    <div>
+                        <h3>CONSEQUAT IPSUM</h3>
+                        <p>Sapien a lorem in integer ornare praesent commodo adipiscing arcu in massa commodo lorem
+                            accumsan
+                            at odio massa ac ac. Semper adipiscing varius accumsan.</p>
+                    </div>
+                </div>
+                <div class="item">
+                        <div>
+                            <img src="images/kentaro-toma-6eDCtPB8Jqk-unsplash.jpg">
+                        </div>
+                        <div>
+                            <h3>MAGNA TEMPUS</h3>
+                            <p>Adipiscing ullamcorper semper ut amet ac risus. Lorem sapien ut odio odio nunc. Ac
+                                adipiscing nibh porttitor erat risus justo adipiscing adipiscing amet placerat.
+                            </p>
+                        </div>
+                </div>
+                <div class="item">
+                        <div>
+                            <img src="images/pedro-lastra-Nyvq2juw4_o-unsplash.jpg">
+                        </div>
+                        <div>
+                            <h3>MAGNA TEMPUS</h3>
+                            <p>Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in
+                                adipiscing blandit tempus accumsan lorem ipsum dolor sit amet nullam aliquam.
+                            </p>
+                        </div>
+                </div>
+            </div>
+            <div class="slick_slider_fix">
+                <div class="item">
+                    <div>
+                        <!-- <img src="images/think.jpg"> -->
+                    </div>
+                    <div>
+                        <h3>CONSEQUAT IPSUM</h3>
+                        <p>Sapien a lorem in integer ornare praesent commodo adipiscing arcu in massa commodo lorem
+                            accumsan
+                            at odio massa ac ac. Semper adipiscing varius accumsan.</p>
+                    </div>
+                </div>
+                <div class="item">
+                        <div>
+                            <!-- <img src="images/kentaro-toma-6eDCtPB8Jqk-unsplash.jpg"> -->
+                        </div>
+                        <div>
+                            <h3>MAGNA TEMPUS</h3>
+                            <p>Adipiscing ullamcorper semper ut amet ac risus. Lorem sapien ut odio odio nunc. Ac
+                                adipiscing nibh porttitor erat risus justo adipiscing adipiscing amet placerat.
+                            </p>
+                        </div>
+                </div>
+                <div class="item">
+                        <div>
+                            <!-- <img src="images/pedro-lastra-Nyvq2juw4_o-unsplash.jpg"> -->
+                        </div>
+                        <div>
+                            <h3>MAGNA TEMPUS</h3>
+                            <p>Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in
+                                adipiscing blandit tempus accumsan lorem ipsum dolor sit amet nullam aliquam.
+                            </p>
+                        </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="full-width content clearfix">
+        <div class="fixed-width">
+            <h2>SED TEMPUS ALIQUAM</h2>
+            <p>Lorem ipsum dolor sit amet</p>
+            <div class="container">
+                <div>
+                    <div>
+                        <img src="images/mountain.jpg">
+                    </div>
+                    <div>
+                        <h3>ALIQUAM</h3>
+                        <p>Morbi in sem quis dui placerat ellentesque odio nisi euismod in haretra a, ultricies
+                            in, diam
+                            ed
+                            rcuc consequat lorem ipsum dolor.</p>
+                        <a href="#">More</a>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img src="images/climber.jpg">
+                    </div>
+                    <div>
+                        <h3>PELLENTESQUE FERMENTUM</h3>
+                        <p>Eed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus
+                            libero eu
+                            augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed
+                            lectus.
+                            Praesent elementum lorem ipsum blandid sti amet velvelit.</p>
+                        <a href="#">More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    </div>
+    <div class="full-width form">
+        <div class="fixed-width">
+            <h2>GET NOTIFIED</h2>
+            <p>Lorem ipsum dolor sit amet nullam feugiat tempus</p>
+            <form>
+                <input type="text" name="mail"><a href="#">Sign Up</a>
+            </form>
+        </div>
+    </div>
+    <div class="full-width map clearfix">
+        <div class="fixed-width">
+            <div class="item">
+                <h3>MAGNA</h3>
+                <ul>
+                    <li><a href="#">Aliquam tempus</a></li>
+                    <li><a href="#">Ultrecies nul</a></li>
+                    <li><a href="#">Gravida ultricies</a></li>
+                    <li><a href="#">Commodo etiam</a></li>
+                </ul>
+            </div>
+            <div class="item">
+                <h3>FEUGIAT</h3>
+                <ul>
+                    <li><a href="#">Morbi sem lorem</a></li>
+                    <li><a href="#">Praes sed dapi</a></li>
+                    <li><a href="#">Sed adipis nullam</a></li>
+                    <li><a href="#">Fus dolor lacinia</a></li>
+                </ul>
+            </div>
+            <div class="item">
+                <h3>TEMPUS</h3>
+                <ul>
+                    <li><a href="#">Donecnec etiam</a></li>
+                    <li><a href="#">Aapibus sedun</a></li>
+                    <li><a href="#">Namnulla tempus</a></li>
+                    <li><a href="#">Morbi set amet</a></li>
+                </ul>
+            </div>
+            <div class="item">
+                <h3>ALIQUAM</h3>
+                <ul>
+                    <li><a href="#">Lorem prasent dia</a></li>
+                    <li><a href="#">Nellentes ipsum</a></li>
+                    <li><a href="#">Diamsed arcu dolor</a></li>
+                    <li><a href="#">Sit amet cursus</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer class="full-width ">
+        <div class="fixed-width">
+            <div class="contect">
+                <ul>
+                    <li><i><i class="fas fa-home"></i></i>1234 Fictional Street #5432 Nashville, TN 00000-0000</li>
+                    <li><i><i class="fas fa-phone-alt"></i></i><a href="#">(000) 000-0000</a></li>
+                    <li><i><i class="fas fa-envelope"></i></i><a href="#">info@untitled.tld</a></li>
+                </ul>
+                <div class="copyright">© Untitled. All rights reserved.</div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

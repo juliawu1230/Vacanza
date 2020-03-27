@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link
+        href="https://fonts.googleapis.com/css?family=Abril+Fatface|Lobster|Merriweather|Montserrat:100,100i,200,200i,300,300i,400,400i,500,600,700,800,900,900i|Parisienne|Quicksand|Satisfy&display=swap"
+        rel="stylesheet">
+    <link href="boost.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/a18f7de081.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+    <script src="../jquery-3.4.1.min.js"></script>
+
+    <title>booststrape</title>
+    <script>
+        $('document').ready(function () {
+            $('.header span').click(function () {
+                $('.navigator').animate({
+                    right: 0
+                }, 600);
+
+            });
+            $('.navigator i').click(function () {
+                $('.navigator').animate({
+                    right: '-280px'
+                }, 600);
+
+            });
+            var wdyh = $(window).width();
+            if (wdth < 992) {
+                $$('.banner video').hide();
+            }
+            $(window).resize(function () {
+                var wth = $(window).width();
+                if (wth < 992) {
+                    $('.banner video').hide();
+                } else {
+                    $('.banner video').show();
+                }
+
+            });
+
+
+
+
+
+
+
+        });
+    </script>
+</head>
+
+<body>
+    <div class="container-fluid header text-white fixed-top">
+        <div class="row">
+            <div class="col-6">Indistrious</div>
+            <div class="text-right col-6">
+                <span><i class="fas fa-bars mr-2"></i>Menu</span>
+            </div>
+        </div>
+    </div>
+    <div class="navigator bg-black p-4 position-fixed">
+        <p class="text-right"><i class="fas fa-times "></i></p>
+        <ul class="list-unstyled">
+            <li class="border-bottom border-muted"><a href="boost.html" target="_self">Home</a></li>
+            <li class="border-bottom border-muted"><a href="#">Elements</a></li>
+            <li><a href="boost1.html" target="_self">Generic</a></li>
+        </ul>
+    </div>
+    </div>
+    <div class="container-fluid banner_inn text-center bg-dark p-0 positoin-relative">
+        <div class="overlay">
+            <h1 class="text-white font-weight-normal mb-0">GENERIC PAGES</h1>
+        </div>
+    </div>
+    <div class="container-fluid generic p-0">
+        <div class="overlay py-3">
+            <div class="container py-5">
+                <div class="bg-white p-5">
+                    <h2 class="font-weight-normal">FEUGIAT CONSEQUAT</h2>
+                    <p>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod.
+                        Magna et cursus lorem faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac
+                        adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget.
+                        tempus euismod tempus. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing
+                        eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent
+                        tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus
+                        vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus.
+                        Integer ac sed amet praesent. Nunc lacinia ante nunc ac gravida lorem ipsum dolor sit amet dolor
+                        feugiat consequat.</p>
+                    <p>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod.
+                        Magna et cursus lorem faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac
+                        adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget.
+                        tempus euismod tempus. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing
+                        eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent
+                        tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus
+                        vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus.
+                        Integer ac sed amet praesent. Nunc lacinia ante nunc ac gravida lorem ipsum dolor sit amet dolor
+                        feugiat consequat.</p>
+                    <h4 class="font-weight-normal border-top pt-4 ">MAGNA ODIO TEMPUS COMMODO</h4>
+                    <p>n arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim aliquet. Accumsan ac integer
+                        lobortis commodo ornare aliquet accumsan erat tempus amet porttitor. Ante commodo blandit
+                        adipiscing integer semper orci eget. Faucibus commodo adipiscing mi eu nullam accumsan morbi
+                        arcu ornare odio mi adipiscing nascetur lacus ac interdum morbi accumsan vis mi accumsan ac
+                        praesent.</p>
+                    <p>Felis sagittis eget tempus primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis
+                        volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis
+                        sagittis eget. tempus euismod. Magna sed etiam ante ipsum primis in faucibus vestibulum. Blandit
+                        adipiscing eu ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat
+                        ac adipiscing accumsan eu faucibus lorem ipsum dolor sit amet nullam.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid map py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-xl-6 mb-3">
+                    <h3 class="text-white font-weight-normal mb-3">ACCUMSAN MONTES VIVERRA</h3>
+                    <p class="text-muted text-justify">Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida
+                        odio porttitor
+                        sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante
+                        lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing. Lorem ipsum dolor
+                        vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis
+                        volutpat ac adipiscing sed feugiat eu faucibus. Integer ac sed amet praesent. Nunc lacinia ante
+                        nunc ac gravida.</p>
+                </div>
+                <div class="col-sm-6 col-xl-3 mb-3">
+                    <h4 class="text-white font-weight-normal mb-3">SEM TURPIS AMET SEMPER</h4>
+                    <ul class="list-unstyled">
+                        <li class="border-bottom"><a href="#">Dolor pulvinar sed etiam.</a></li>
+                        <li class="border-bottom"><a href="#">Etiam vel lorem sed amet.</a></li>
+                        <li class="border-bottom"><a href="#">Felis enim feugiat viverra.</a></li>
+                        <li class="border-bottom"><a href="#">Dolor pulvinar magna etiam.</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-xl-3 ">
+                    <h4 class="text-white font-weight-normal mb-3">MAGNA SED IPSUM</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#"><i class="fab fa-twitter mr-2"></i>Twitter</a></li>
+                        <li><a href="#"><i class="fab fa-facebook-square mr-2"></i>Facebook</a></li>
+                        <li><a href="#"><i class="fab fa-instagram mr-2"></i>Instagram</a></li>
+                        <li><a href="#"><i class="fab fa-github mr-2"></i>Github</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid footer">
+        <div class="container border-top border-muted pb-4">
+            <p class="text-center mt-4 text-muted">© Untitled. Photos Unsplash, Video Coverr.</p>
+        </div>
+    </div>
+</body>
+
+</html>

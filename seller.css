@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding:0;
+    margin:0;
+    width:100%;
+    font-family: 'Montserrat', sans-serif !important;
+    color:#bc9272 !important;
+}
+/* .container-fluid{
+    padding:0 !important;
+} */
+.nav{
+    background: white;
+    color:#bc9272;
+    position: fixed;
+    top:0;
+    z-index:1035;
+    justify-content: center;
+}
+.nav a{
+    color:#bc9272 !important;
+}
+.boxshadow{
+    box-shadow:0 3px 8px 3px rgba(177, 177, 177,0.3) ;
+}
+.logo{
+    text-align: center;
+    font-weight: 700;
+    font-size: 3rem;
+}
+.navbar{
+    justify-content: space-around;
+    padding:20px 150px 20px 350px !important;
+    background: white;
+}
+.row{
+    margin:0 !important;
+}
+.nicon{
+    font-size: 1.3rem;
+    margin-left: 30px;
+}
+.nicon i{
+    margin-left: 20px;
+}
+.column{
+    display:flex;
+    flex-direction: column;
+    position: fixed;
+    margin: 0px 80px;
+    transition: top ease-in 0.3s;
+    top:150px;
+}
+.column a{
+    color:#bc9272 !important;
+}
+.title{
+    font-weight: 600;
+    margin: 28px 0 10px 0;
+}
+.main{
+    padding-top: 149px;
+    color:#bc9272;
+}
+
+.main .container-fluid{
+    padding:0 30px;
+}
+
+.pic{
+    margin:auto;
+    justify-content: space-around;
+}
+.pic img{
+    width:100%;
+}
+.pic1{
+    text-align: left;
+    margin:30px 0px;
+}
+.pic1 p{
+    font-size: 1rem !important;
+}
+.pic1 h2{
+    margin-top: 20px;
+    font-size: 1.3rem;
+}
+
+.footer{
+    margin-top:50px;
+    border-top: 2px solid #bc9272;
+    padding: 30px 0;
+}
+.footer p{
+    margin:10px 0;
+}
+.footer i{
+    font-size: 1.3rem;
+}
+.input{
+    border: none;
+    border-bottom: #bc9272 1px solid;
+    height: 13px;
+    margin-left: 10px;
+}
+.input:focus{
+    outline: none;
+}
+.top{
+    transition: top ease-in 0.3s;
+    top:10px;
+}

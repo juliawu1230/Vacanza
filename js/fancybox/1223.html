@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="1223.css">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="jquery.fancybox.css" rel="stylesheet">
+    <link href="helpers/jquery.fancybox-buttons.css" rel="stylesheet">
+    <link href="helpers/jquery.fancybox-thumbs.css" rel="stylesheet">
+
+    <script src="jquery-1.12.3.min.js"></script>
+    <script src="jquery.fancybox.js"></script>
+    <script src="jquery.mousewheel.pack.js"></script>
+    <script src="helpers/jquery.fancybox-buttons.js"></script>
+    <script src="helpers/jquery.fancybox-thumbs.js"></script>
+    <script src="helpers/jquery.fancybox-media.js"></script>
+
+
+    <title>Fancybox</title>
+<script>
+    $('document').ready(function(){
+        $('p.fb1 a').fancybox();
+
+        $('a.fb2_a').fancybox({
+            openEffect:'elastic',
+            closeEfect:'fade',
+        });
+        $('a.fb2_b').fancybox({
+            openEffect:'elastic',
+            closeEffect:'elastic',
+            openspeed:4000
+        });
+        $('a.fb2_c').fancybox({
+            openEffect:'fade',
+            closeEffect:'elastic',
+            openspeed:4000
+        });
+        $('a.fb2_d').fancybox({
+            openEffect:'none',
+            closeEffect:'none',
+        });
+        $('a.fb3_a').fancybox({
+            helpers:{
+                title:{
+                    type:'inside'
+                }
+            }
+        });
+        $('a.fb3_b').fancybox({
+            helpers:{
+                title:{
+                    type:'outside'
+                }
+            }
+        });
+        $('a.fb3_c').fancybox({
+            helpers:{
+                title:{
+                    type:'float'
+                }
+            }
+        });
+        $('a.fb3_d').fancybox({
+            helpers:{
+                title:{
+                    type:'over'
+                }
+            }
+        });
+        $('p.fb4 a').fancybox({
+            arrows:false,
+            closeBtn:false,
+            helpers:{
+                buttons:{},
+                    title:{
+                        type:'inside'
+                    }
+                }
+        });
+        $('p.fb5 a').fancybox({
+            helpers:{
+                title:{
+                    type:'float'
+                },
+                thumbs:{
+                    width:60,
+                    height:60
+                }
+            }
+        });
+        $('a.media').fancybox({
+            helpers:{
+                media:{} //需放置網站伺服器
+            }
+        });
+    });
+
+
+</script>
+</head>
+<body>
+    <h1>fancybox</h1>
+    <h2>eg.1基本設置</h2>
+    <p class="fb1">
+        <a href="images/10272071163_2eccdc658d_k.jpg" rel="first_box"><img src="images/s/001_s.jpg"></a>
+        <a href="images/14072262993_4a8a27cbbf_k.jpg" rel="first_box"><img src="images/s/002_s.jpg"></a>
+        <a href="images/17241220296_fb62bd92ff_k.jpg" rel="first_box"><img src="images/s/003_s.jpg"></a>
+        <a href="images/20701480523_e2e85af3e3_k.jpg" rel="first_box"><img src="images/s/004_s.jpg"></a>
+        <a href="images/5346300705_73215cbe0d_k.jpg" rel="first_box"><img src="images/s/005_s.jpg"></a>
+        <a href="images/8255961523_b171c100aa_k.jpg" rel="first_box"><img src="images/s/006_s.jpg"></a>
+
+    </p>
+    <h2>eg.2Effect</h2>
+    <p class="fb2">
+        <a href="images/10272071163_2eccdc658d_k.jpg"  class="fb2_a" ><img src="images/s/001_s.jpg"></a>
+        <a href="images/14072262993_4a8a27cbbf_k.jpg" class="fb2_b" ><img src="images/s/002_s.jpg"></a>
+        <a href="images/17241220296_fb62bd92ff_k.jpg" class="fb2_c" ><img src="images/s/003_s.jpg"></a>
+        <a href="images/20701480523_e2e85af3e3_k.jpg" class="fb2_d" ><img src="images/s/004_s.jpg"></a>    
+    </p>
+    <h2>eg.3圖說</h2>
+    <p class="fb3">
+        <a href="images/10272071163_2eccdc658d_k.jpg"  class="fb3_a" rel="first_box" title="c8 c8 "><img src="images/s/001_s.jpg"></a>
+        <a href="images/14072262993_4a8a27cbbf_k.jpg" class="fb3_b" rel="first_box" title="c8 c8 "><img src="images/s/002_s.jpg"></a>
+        <a href="images/17241220296_fb62bd92ff_k.jpg" class="fb3_c" rel="first_box" title="c8 c8 "><img src="images/s/003_s.jpg"></a>
+        <a href="images/20701480523_e2e85af3e3_k.jpg" class="fb3_d" rel="first_box" title="c8 c8 "><img src="images/s/004_s.jpg"></a>    
+    </p>
+    <h2>eg.4控制組</h2>
+    <p class="fb4">
+        <a href="images/10272071163_2eccdc658d_k.jpg"   rel="fourth_box" title="c8 c8 "><img src="images/s/001_s.jpg"></a>
+        <a href="images/14072262993_4a8a27cbbf_k.jpg"  rel="fourth_box" title="c8 c8 "><img src="images/s/002_s.jpg"></a>
+        <a href="images/17241220296_fb62bd92ff_k.jpg"  rel="fourth_box" title="c8 c8 "><img src="images/s/003_s.jpg"></a>
+        <a href="images/20701480523_e2e85af3e3_k.jpg"  rel="fourth_box" title="c8 c8 "><img src="images/s/004_s.jpg"></a>    
+    </p>
+    <h2>eg.5縮圖</h2>
+    <p class="fb5">
+        <a href="images/10272071163_2eccdc658d_k.jpg"   rel="fourth_box" title="c8 c8 "><img src="images/s/001_s.jpg"></a>
+        <a href="images/14072262993_4a8a27cbbf_k.jpg"  rel="fourth_box" title="c8 c8 "><img src="images/s/002_s.jpg"></a>
+        <a href="images/17241220296_fb62bd92ff_k.jpg"  rel="fourth_box" title="c8 c8 "><img src="images/s/003_s.jpg"></a>
+        <a href="images/20701480523_e2e85af3e3_k.jpg"  rel="fourth_box" title="c8 c8 "><img src="images/s/004_s.jpg"></a>    
+    </p>
+    <h2>eg.6媒體</h2>
+    <p class="fb6">
+        <a href="https://www.youtube.com/watch?v=aAkMkVFwAoo" class="media">Youtube</a>
+        <a href="https://goo.gl/maps/cQ6ft13uSrvoh7js8" class="media">GoogleMap</a>
+    </p>
+</body>
+</html>

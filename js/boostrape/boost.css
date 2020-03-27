@@ -1,0 +1,245 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif !important;
+}
+.bg-black{
+    background-color: rgb(2, 2, 2);
+}
+.header{
+    background-color: rgb(21, 21, 20);
+    color:#ccc !important;
+    line-height: 50px;
+
+    /* position: fixed; */
+}
+.header span{
+    color:#aaa !important;
+    transition: color 0.3s;
+}
+.header span:hover{
+color:#fff;
+transition: color 0.3s;
+cursor: pointer;
+}
+h1{
+    font-size: 4rem;
+}
+@media screen and(max-width:767px){
+    h1{
+        font-size:3rem !important;
+    }
+    h2{
+        font-size: 1.8rem;
+    }
+    h3{
+        font-size: 1.3rem;
+    }
+}
+@media screen and(min-width:768px) and(max-width:1200px){
+    h3{
+        font-size: 1.4rem;
+    }
+}
+@media screen and(min-width:1200px){
+    h3{
+        font-size: 1.6rem;
+    }
+}
+h3{
+    color: #aaa;
+    
+}
+
+h4{
+    font-size: 1.1rem !important;
+}
+h5{
+    font-size: 1.1rem !important;
+}
+/* fontawsome */
+.banner .title{
+    z-index:1000;
+   
+}
+
+.banner .overlay{
+    width: 100%;
+    height:480px;
+    background-color: rgba(120, 30, 30, 0.8);
+    z-index:500;
+}
+.banner .video{
+    background: url(./images/banner.jpg);
+    background-size: cover;
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+
+
+
+}
+@media screen and(max-width:991px) and (min-width:768px){
+    .banner .title{
+        padding-top:170px;
+    }
+    
+    .banner .overlay{
+        height:420px;
+        
+    }
+    .banner .video,.banner_inn {
+        background: url('./images/banner.jpg');
+        background-size: cover;
+        background-position: left top;
+        height:420px;
+    }
+    .banner_inn .overlay h1{
+        line-height: 280px;
+        
+    }
+
+}
+@media screen and (min-width: 992px) {
+	
+	.banner .title {
+		padding-top: 200px;
+	}
+	
+	.banner .overlay,.banner_inn .overlay {
+        width:100%;
+        background-color: rgba(120, 30, 30, 0.8);
+        z-index:500;
+        height: 480px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+	}
+	
+	.banner .video{
+		height: 480px;
+	}
+}
+@media screen and (max-width:575px){
+    .banner .title{
+        padding-top:80px;
+    }
+    
+    .banner .overlay{
+        height:400px;
+        
+    }
+    .banner .video{
+        height:400px;
+    }
+}
+@media screen and(max-width:767px) and (min-width:576px){
+    .banner .title{
+        padding-top:130px;
+    }
+    
+    .banner .overlay{
+        
+        height:400px;
+    }
+    .banner .video{
+        height:400px;
+    }
+}
+
+.banner .video{
+    height:480px;
+}
+.navigator{
+    width:280px;
+    height:100%;
+    top:0;
+    right:-280px;
+    z-index: 2000;
+}
+
+.navigator i{
+    color:#6c757d !important;
+    transition: color 0.3s;
+    font-size: 1.1rem;
+}
+.navigator i:hover{
+    color:#fff;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+.navigator li{
+    line-height: 3rem;
+}
+.navigator a{
+    color:#6c757d;
+    transition: color 0.3s;
+}
+.navigator a:hover{
+    color:#fff;
+    transition: color 0.3s;
+    text-decoration: none;
+}
+
+.fontawsome, .ceo, .generic {
+    background: url(./images/patrick-tomasso-gMes5dNykus-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.fontawsome .overlay,.ceo .overlay,.generic .overlay{
+    background-color: rgba(200, 200, 200, 0.8);
+}
+.fontawsome i{
+    font-size: 4rem !important;
+}
+/* banner_b */
+.banner_b{
+    background: url(./images/verne-ho-0LAJfSNa-xQ-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.banner_b .overlay{
+    background-color: rgba(120, 30, 30, 0.9);
+    
+}
+/* ceo */
+.ceo .item p{
+    border-left-width:8px !important;
+
+}
+.ceo .item p:nth-child(2){
+    font-size: 0.85rem;
+}
+/* map */
+.map{
+    background-color: rgb(21, 21, 20);
+}
+.map a{
+    color:#f8f9fa;
+}
+.map a:hover{
+    color:#f00;
+    transition: color 0.3s;
+    text-decoration: none !important;
+}
+
+.map .row div:nth-child(2) ul{
+    line-height: 2.5rem;
+}
+.map .row div:nth-child(3) ul{
+    line-height: 2.64rem;
+}
+
+.map i{
+    font-size:1.5rem;
+}
+/* footer */
+.footer{
+    background-color: rgb(21, 21, 20);
+}
+.border-muted{
+    border-color: #6c757d;
+}

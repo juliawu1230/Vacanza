@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="./bxs.css" rel="stylesheet">
+    <link href="jquery.bxslider.css" rel="stylesheet">
+    <script src="jquery-1.12.3.min.js"></script>
+    <script src="./jquery.bxslider.js"></script>
+    <title>bxSlider</title>
+    <script>
+        $('document').ready(function () {
+            $('.bs1').addClass('p0 m0').bxSlider(); //基本樣式
+
+            $('.bs2').addClass('p0 m0').bxSlider({
+                minSlides: 3,
+                maxSlides: 3,
+                slideWidth: 500,
+                slideMargin: 10,
+                // mode: 'fade'
+            });
+
+            $('.bs3').addClass('p0 m0').bxSlider({
+                captions: true
+            });
+
+            $('.bs4').addClass('p0 m0').bxSlider({
+                auto: true,
+                controls: false,
+                autocontrols: true,
+                pause: 3000
+            });
+
+            $('.bs5').addClass('m0').bxSlider({
+                slideMargin: 6,
+                ticker: true,
+                speed: 60000,
+                tickerHover: true
+            });
+
+            $('.bs6').addClass('m0').bxSlider({
+                pagerCustom: '.thumbs_s',
+                controls: false
+            })
+
+        });
+    </script>
+</head>
+
+<body>
+    <h1>bxSlider</h1>
+    <h2>eg.1基本中的基本沒有任何設定</h2>
+    <ul class="bs1">
+        <li><img src="images/eb2672df2a535c9898f96c7d8013a6e0.jpg"></li>
+        <li><img src="images/eb2672df2a535c9898f96c7d8013a6e0.jpg"></li>
+        <li><img src="images/eb2672df2a535c9898f96c7d8013a6e0.jpg"></li>
+        <li><img src="images/eb2672df2a535c9898f96c7d8013a6e0.jpg"></li>
+        <li><img src="images/eb2672df2a535c9898f96c7d8013a6e0.jpg"></li>
+        <li><img src="images/eb2672df2a535c9898f96c7d8013a6e0.jpg"></li>
+    </ul>
+    <h2>eg.2悄悄飄走</h2>
+    <ul class="bs2">
+        <li><img src="images/eb2672df2a535c9898f96c7d8013a6e0.jpg"></li>
+        <li><img src="images/eb2672df2a535c9898f96c7d8013a6e0.jpg"></li>
+        <li><img src="images/eb2672df2a535c9898f96c7d8013a6e0.jpg"></li>
+        <li><img src="images/eb2672df2a535c9898f96c7d8013a6e0.jpg"></li>
+        <li><img src="images/eb2672df2a535c9898f96c7d8013a6e0.jpg"></li>
+        <li><img src="images/eb2672df2a535c9898f96c7d8013a6e0.jpg"></li>
+    </ul>
+    <h2>eg.3囉唆的圖說</h2>
+    <ul class="bs3">
+        <li><img src="images/eb2672df2a535c9898f96c7d8013a6e0.jpg" title="耳環"></li>
+        <li><img src="images/eb2672df2a535c9898f96c7d8013a6e0.jpg" title="耳環1"></li>
+        <li><img src="images/eb2672df2a535c9898f96c7d8013a6e0.jpg" title="耳環2"></li>
+        <li><img src="images/eb2672df2a535c9898f96c7d8013a6e0.jpg" title="耳環3"></li>
+        <li><img src="images/eb2672df2a535c9898f96c7d8013a6e0.jpg" title="耳環4"></li>
+        <li><img src="images/eb2672df2a535c9898f96c7d8013a6e0.jpg" title="耳環5"></li>
+    </ul>
+    <h2>eg.4自己跑</h2>
+    <ul class="bs4">
+        <li><img src="images/eb2672df2a535c9898f96c7d8013a6e0.jpg" title="耳環"></li>
+        <li><img src="images/eb2672df2a535c9898f96c7d8013a6e0.jpg" title="耳環1"></li>
+        <li><img src="images/eb2672df2a535c9898f96c7d8013a6e0.jpg" title="耳環2"></li>
+        <li><img src="images/eb2672df2a535c9898f96c7d8013a6e0.jpg" title="耳環3"></li>
+        <li><img src="images/eb2672df2a535c9898f96c7d8013a6e0.jpg" title="耳環4"></li>
+        <li><img src="images/eb2672df2a535c9898f96c7d8013a6e0.jpg" title="耳環5"></li>
+    </ul>
+    <h2>eg.5跑馬燈</h2>
+    <ul class="bs5">
+        <li><img src="images/eb2672df2a535c9898f96c7d8013a6e0.jpg" title="耳環"></li>
+        <li><img src="images/eb2672df2a535c9898f96c7d8013a6e0.jpg" title="耳環1"></li>
+        <li><img src="images/eb2672df2a535c9898f96c7d8013a6e0.jpg" title="耳環2"></li>
+        <li><img src="images/eb2672df2a535c9898f96c7d8013a6e0.jpg" title="耳環3"></li>
+        <li><img src="images/eb2672df2a535c9898f96c7d8013a6e0.jpg" title="耳環4"></li>
+        <li><img src="images/eb2672df2a535c9898f96c7d8013a6e0.jpg" title="耳環5"></li>
+    </ul>
+    <h2>eg.6下面有一行～縮圖</h2>
+    <ul class="bs6">
+        <li><img src="images/eb2672df2a535c9898f96c7d8013a6e0.jpg" title="耳環"></li>
+        <li><img src="images/eb2672df2a535c9898f96c7d8013a6e0.jpg" title="耳環1"></li>
+        <li><img src="images/eb2672df2a535c9898f96c7d8013a6e0.jpg" title="耳環2"></li>
+        <li><img src="images/eb2672df2a535c9898f96c7d8013a6e0.jpg" title="耳環3"></li>
+        <li><img src="images/eb2672df2a535c9898f96c7d8013a6e0.jpg" title="耳環4"></li>
+        <li><img src="images/eb2672df2a535c9898f96c7d8013a6e0.jpg" title="耳環5"></li>
+    </ul>
+    <div class="thumbs_s">
+        <a href="#" data-slide-index="0"><img src="images/s/eb2672df2a535c9898f96c7d8013a6e0_s.jpg"></a>
+        <a href="#" data-slide-index="1"><img src="images/s/eb2672df2a535c9898f96c7d8013a6e0_s.jpg"></a>
+        <a href="#" data-slide-index="2"><img src="images/s/eb2672df2a535c9898f96c7d8013a6e0_s.jpg"></a>
+        <a href="#" data-slide-index="3"><img src="images/s/eb2672df2a535c9898f96c7d8013a6e0_s.jpg"></a>
+        <a href="#" data-slide-index="4"><img src="images/s/eb2672df2a535c9898f96c7d8013a6e0_s.jpg"></a>
+        <a href="#" data-slide-index="5"><img src="images/s/eb2672df2a535c9898f96c7d8013a6e0_s.jpg"></a>
+    </div>
+</body>
+
+</html>

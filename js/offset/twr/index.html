@@ -1,0 +1,205 @@
+<!DOCTYPE HTML>
+<!--
+	Monochromed by TEMPLATED
+    templated.co @templatedco
+    Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Tai Wei Rei</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link href='http://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+		<script src="./js/jquery-1.12.3.min.js"></script>
+		
+        <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> -->
+		<script src="./js/skel.min.js"></script>
+		<script src="./js/skel-panels.min.js"></script>
+		<script src="./js/init.js"></script>
+		
+		<script>
+			$('document').ready(function(){
+				$('#nav a').click(function(){
+					console.log('data-target: ', $(this).attr('data-target'));
+					var target =$(this).attr('data-target');
+					//從點擊的A標籤中取得data-target屬性的參數->取得目標位置   attr(提取)
+
+					console.log('target offset top: ', $(target).offset().top);
+					var dh =$(target).offset().top;
+					//取得目標位置與最上方的距離
+
+					$('html,body').animate({
+						scrollTop:dh - 50
+					},1500);
+					//頁面捲動到對應的位置（捲動對應的距離）
+				});
+				$('.top a').click(function(){
+					$('html,body').animate({
+						scrollTop:0
+					},600);
+				})
+			})
+		</script>
+		
+		<noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+	</head>
+	<body class="homepage">
+
+	<!-- Header -->
+		<div id="header" >
+			<div class="container ">
+					
+				<!-- Logo -->
+					<div id="logo">
+						<h1><a href="#">Tai Wei Rei</a></h1>
+						<span>Taiwan</span>
+					</div>
+				
+				<!-- Nav -->
+					<nav id="nav" class="header">
+						<ul>
+							<li class="active"><a href="index.html" data-target="#header">首頁</a></li>
+							<li><a href="#" data-target="#main">商品</a></li>
+							<li><a href="#" data-target="#content">經營理念</a></li>
+							<li><a href="#" data-target="#footer">聯絡我們</a></li>
+						</ul>
+					</nav>
+
+			</div>
+		</div>
+	<!-- Header -->
+			
+	<!-- Main -->
+		<div id="main" >
+			<div class="container">
+				<header>
+					<h2>客製化商品</h2>
+				</header>
+				<div class="row">
+					<div class="3u">
+						<section>
+							<a href="#" class="image full"><img src="images/floor.png" alt="" /></i></a>
+							<p>Quisque dictum.Pellentesque viverra  enim. Integer nisl risus, sagittis convallis, rutrum id,elementum.</p>
+							<a href="#" class="button" style="margin-left: 70px;">珪藻土墊</a>
+						</section>
+					</div>
+					<div class="3u">
+						<section>
+							<a href="#" class="image full"><img src="images/beer-bottle.png" alt="" /></a>
+							<p>Pellentesque viverra  enim. Tristique ante ut risus. Quisque dictum. Integer sagittis convallis elementum.</p>
+							<a href="#" class="button" style="margin-left: 70px;">生活用品</a>
+						</section>
+					</div>
+					<div class="3u">
+						<section>
+							<a href="#" class="image full"><img src="images/paper.png" alt="" /></a>
+							<p>Pellentesque viverra  enim. Quisque dictum. Integer nisl risus, sagittis convallis, rutrum id, elementum.</p>
+							<a href="#" class="button" style="margin-left: 70px;">衛生紙</a>
+						</section>
+					</div>
+					<div class="3u">
+						<section>
+							<a href="#" class="image full"><img src="images/olive-oil.png" alt="" /></a>
+							<p>Tristique ante ut risus. Quisque dictum. Integer nisl risus, sagittis convallis elementum.</p>
+							<a href="#" class="button" style="margin-left: 90px;">油類</a>
+						</section>
+					</div>
+					<div class="3u">
+						<section>
+							<a href="#" class="image full"><img src="images//shopping-bag.png" alt="" /></a>
+							<p>Tristique ante ut risus. Quisque dictum. Integer nisl risus, sagittis convallis elementum.</p>
+							<a href="#" class="button" style="margin-left: 70px;">購物袋</a>
+						</section>
+					</div>
+					<div class="3u">
+						<section>
+							<a href="#" class="image full"><img src="images/travel.png" alt="" /></a>
+							<p>Tristique ante ut risus. Quisque dictum. Integer nisl risus, sagittis convallis elementum.</p>
+							<a href="#" class="button" style="margin-left: 70px;">行李箱</a>
+						</section>
+					</div>
+					<div class="3u">
+						<section>
+							<a href="#" class="image full"><img src="images/tshirt (1).png" alt="" /></a>
+							<p>Tristique ante ut risus. Quisque dictum. Integer nisl risus, sagittis convallis elementum.</p>
+							<a href="#" class="button" style="margin-left: 85px;">服飾</a>
+						</section>
+					</div>
+					<div class="3u">
+						<section>
+							<a href="#" class="image full"><img src="images/rice.png" alt="" /></a>
+							<p>Tristique ante ut risus. Quisque dictum. Integer nisl risus, sagittis convallis elementum.</p>
+							<a href="#" class="button" style="margin-left: 70px;">食品類</a>
+						</section>
+					</div>
+				</div>
+				
+				
+					<!-- Content -->
+					<div class="skel-cell-important mt-2">
+						<section id="content">
+							<header>
+								<h2>經營理念</h2>
+								<span class="byline">Donec leo, vivamus fermentum nibh in augue praesent a lacus at urna congue rutrum</span>
+							</header>
+							<p><a href="#" class="image full"><img src="images/helena-lopes-PGnqT0rXWLs-unsplash.jpg" style="height:50%;" alt=""></a></p>
+							<p>本公司自1997年成立以來,秉持著誠信原則,以品質精良,嚴格管製品質出貨.
+								<br>泰威瑞出品,客戶有信心,是您可依賴的好幫手。
+								<br>本公司專門提供各大百貨. 公司行號. 學校團體.
+								政府機關.民間機構...等禮贈品之批發...
+								秉持著誠信原則,以品質精良,嚴格管製品質才出貨.
+								順應時代潮流,新推出超夯熱賣商品-清潔用品、等民生必需品...
+								用最少的預算,創造最大的效益,提升買氣,達到雙贏! !
+								<br>主要產品：
+								薰香精油瓶,薰香燈座,日用品清潔劑,泡茶機,禮品組及贈品促
+								銷,聲寶.大同.新格電器,妙管家清潔用品</p>
+							
+						</section>
+					</div>
+					<!-- /Content -->
+						
+					<!-- Sidebar -->
+						
+					<!-- Sidebar -->
+						
+				</div>
+			
+			</div>
+		</div>
+	<!-- Main -->
+
+	<!-- Footer -->
+		<div id="footer" >
+			<div class="container">
+					<div class="6u">
+						<section>
+							<header>
+								<h2>聯絡我們</h2>
+							</header>
+							<p>地址：北京市</p>
+							<p>電話：(02)2452-0880</p>
+							<p>手機：（＋886）0939-075-686</p>
+							
+						</section>
+					</div>
+				</div>
+			</div>
+		</div>
+	<!-- Footer -->
+
+	<!-- Copyright -->
+		<div id="copyright">
+			<div class="container">
+				Design: <a href="http://templated.co">TEMPLATED</a> Images: <a href="http://unsplash.com">Unsplash</a> (<a href="http://unsplash.com/cc0">CC0</a>)
+			</div>
+		</div>
+
+	</body>
+</html>

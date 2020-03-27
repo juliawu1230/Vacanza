@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding:0;
+    margin:0;
+    width:100%;
+    font-family: 'Montserrat', sans-serif !important;
+    color:rgb(151, 61, 23) !important;
+}
+/* .container-fluid{
+    padding:0 !important;
+} */
+.nav{
+    background: white;
+    color:rgb(151, 61, 23) ;
+    display: flex;
+    justify-content: center;
+}
+.nav a{
+    color:rgb(151, 61, 23) !important;
+}
+.logo{
+    text-align: center;
+    font-weight: 700;
+    font-size: 3rem;
+}
+.navbar{
+    justify-content: space-around;
+    padding:20px 400px !important;
+}
+.row{
+    margin:0 !important;
+}
+.p0{
+    padding: 0;
+}
+.m0{
+    margin:0;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 2px solid rgb(151, 61, 23);
+}
+.main i{
+    font-size: 5rem;
+    color:rgb(151, 61, 23);
+}
+.icon p{
+    font-size: 2rem !important;
+    font-weight: 600;
+}
+.pic{
+    margin:auto;
+    justify-content: space-around;
+}
+.pic img{
+    width:100%;
+}
+.pic1{
+    text-align: left;
+    margin:30px 0px;
+}
+.pic1 p{
+    font-size: 1rem !important;
+}
+.pic1 h2{
+    margin-top: 20px;
+    font-size: 1.3rem;
+}
+.word{
+    border-bottom: 2px solid rgb(151, 61, 23);
+}
+.beach{
+    margin-left:30px;
+}
+.wtext{
+    text-align: center;
+    padding:60px;
+    margin:auto;
+}
+.wtext p{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.wtext span{
+    font-size: 1.8rem;
+    font-weight:bold;
+}
+.wtext .btn{
+    background: rgb(151, 61, 23);
+    color:white !important;
+    padding:10px 20px;
+    margin:20px;
+}
+.apc{
+    margin-bottom: 50px;
+}
+.apc p{
+    text-align: center;
+    font-weight: 700;
+    margin:20px;
+    font-size: 2rem;
+}
+.pink{
+    background: rgb(245, 196, 196);
+    padding:50px;
+}
+.pink .line{
+    border-bottom: 2px solid rgb(151, 61, 23);
+    text-align: left;
+    padding-bottom: 10px;
+}
+.pink .btn{
+    background: rgb(245, 196, 196);
+    border: 1px solid rgb(151, 61, 23);
+    color:rgb(151, 61, 23) !important;
+    border-radius: 0 !important;
+}
+
