@@ -40,17 +40,43 @@
 
 <body>
     <div class="nav container-fluid align-items-center">
-        <div class="logo container-fluid">
+        <div class="logo">
             Vacanza
         </div>
-        <div class="navbar container-fluid">
-            <a href="#">New</a>
-            <a href="Seller.html">Best Seller</a>
-            <a href="#">Wish List</a>
-            <a href="#">All Items</a>
-            <a href="#">Story</a>
+        <div class="navbar">
+            <div class="bar">
+                <a href="#">New</a>
+                <a href="#">Best Seller</a>
+                <a href="#">Wish List</a>
+                <a href="#">All Items</a>
+                <a href="#">Story</a>
+            </div>
+
+            <div class="nicon">
+                <a href=""><i class="fas fa-search"></i></a>
+                <a href=""><i class="fas fa-user-circle"></i></a>
+                <a href=""><i class="fas fa-shopping-cart"></i></a>
+            </div>
+
+        </div>
+        <div class="navright">
+            <a class="btn" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
+                aria-controls="collapseExample">
+                <img src="images/menu_light.png" width="35" height="35">
+            </a>
+
+        </div>
+        <div class="collapse w-100" id="collapseExample">
+            <div class="card card-body cardright">
+                <a href="#">New</a>
+                <a href="#">Best Seller</a>
+                <a href="#">Wish List</a>
+                <a href="#">All Items</a>
+                <a href="#">Story</a>
+            </div>
         </div>
     </div>
+
     <ul class="bs4">
         <li><img width="100%" src="images/05b22fc91081860fd7b325e9bd4b0a37_1.jpg" title=""></li>
         <li><img width="100%" src="images/197c041b24859388d8a7f1d57d8dbe14_1.jpg" title=""></li>
@@ -67,22 +93,22 @@
             </div>
             <div class="pic">
                 <div class="row">
-                    <div class="pic1 col-3">
+                    <div class="pic1 col-md-3 col-6">
                         <img src="images/05b22fc91081860fd7b325e9bd4b0a37.jpg">
                         <h2>Accessory</h2>
                         <p>Contrary to popular belief</p>
                     </div>
-                    <div class="pic1 col-3">
+                    <div class="pic1 col-md-3 col-6">
                         <img src="images/05b22fc91081860fd7b325e9bd4b0a37.jpg">
                         <h2>Accessory</h2>
                         <p>Contrary to popular belief</p>
                     </div>
-                    <div class="pic1 col-3">
+                    <div class="pic1 col-md-3 col-6">
                         <img src="images/05b22fc91081860fd7b325e9bd4b0a37.jpg">
                         <h2>Accessory</h2>
                         <p>Contrary to popular belief</p>
                     </div>
-                    <div class="pic1 col-3">
+                    <div class="pic1 col-md-3 col-6">
                         <img src="images/05b22fc91081860fd7b325e9bd4b0a37.jpg">
                         <h2>Accessory</h2>
                         <p>Contrary to popular belief</p>
@@ -96,31 +122,31 @@
             <div class="beach">
                 <img src="images/beach.png">
             </div>
-            <div class="wtext col-5">
+            <div class="wtext col-md-5 col-8">
                 <p>Let's Vacanza together.</p>
                 <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>Lorem Ipsum has
                     been the industry's standard dummy text ever since, when an unknown printer took a galley of type
                     and scrambled it to make a type.</span>
                 <br>
-                <div class="btn">Shop Now</div>
+                <div class="btn1">Shop Now</div>
             </div>
         </div>
     </div>
     <div class="apc">
         <p>Overworld</p>
         <div class="row">
-            <img class="col-2" src="images/aa306bbd2d8e870463b4b047223ca45f_2.jpg">
-            <img class="col-2" src="images/aa306bbd2d8e870463b4b047223ca45f_2.jpg">
-            <img class="col-2" src="images/aa306bbd2d8e870463b4b047223ca45f_2.jpg">
-            <img class="col-2" src="images/aa306bbd2d8e870463b4b047223ca45f_2.jpg">
-            <img class="col-2" src="images/aa306bbd2d8e870463b4b047223ca45f_2.jpg">
-            <img class="col-2" src="images/aa306bbd2d8e870463b4b047223ca45f_2.jpg">
+            <img class="col-md-2 col-6 mb-3" src="images/aa306bbd2d8e870463b4b047223ca45f_2.jpg">
+            <img class="col-md-2 col-6 mb-3" src="images/aa306bbd2d8e870463b4b047223ca45f_2.jpg">
+            <img class="col-md-2 col-6 mb-3" src="images/aa306bbd2d8e870463b4b047223ca45f_2.jpg">
+            <img class="col-md-2 col-6 mb-3" src="images/aa306bbd2d8e870463b4b047223ca45f_2.jpg">
+            <img class="col-md-2 col-6 mb-3" src="images/aa306bbd2d8e870463b4b047223ca45f_2.jpg">
+            <img class="col-md-2 col-6 mb-3" src="images/aa306bbd2d8e870463b4b047223ca45f_2.jpg">
         </div>
     </div>
     <div class="pink">
         <div class="container">
             <div class="row">
-                <div class="col-3">
+                <div class="col-md-2 col-12">
                     <p class="line">About Us</p>
                     <p>Get Us</p>
                     <p>Tyalor</p>
@@ -128,17 +154,19 @@
                     <p>WishList</p>
 
                 </div>
-                <div class="col-5">
+                <div class="col-1"></div>
+                <div class="col-md-4 col-12">
                     <p class="line">Always do good</p>
                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
-                    <div class="btn">Get gift</div>
+                    <div class="btn2">Get gift</div>
                 </div>
-                <div class="col-3">
+                <div class="col-1"></div>
+                <div class="col-md-4 col-12">
                     <p>Join Vacanza</p>
                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
                     <p>Contact us</p>
                     <input type="text">
-                    <div class="btn mt-3">Submit</div>
+                    <div class="btn2">Submit</div>
                 </div>
             </div>
         </div>

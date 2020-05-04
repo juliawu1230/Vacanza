@@ -1,122 +1,225 @@
-*{
+* {
     box-sizing: border-box;
 }
-body{
-    padding:0;
-    margin:0;
-    width:100%;
+
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
     font-family: 'Montserrat', sans-serif !important;
-    color:rgb(151, 61, 23) !important;
+    color: rgb(151, 61, 23) !important;
 }
+
 /* .container-fluid{
     padding:0 !important;
 } */
-.nav{
+.container-fluid {
+    padding: 0 !important;
+}
+
+.nav {
     background: white;
-    color:rgb(151, 61, 23) ;
-    display: flex;
+    color: #bc9272;
+    position: fixed;
+    top: 0;
+    z-index: 1035;
     justify-content: center;
 }
-.nav a{
-    color:rgb(151, 61, 23) !important;
+
+.nav a {
+    color: #bc9272 !important;
 }
-.logo{
+
+.boxshadow {
+    box-shadow: 0 3px 8px 3px rgba(177, 177, 177, 0.3);
+}
+
+.logo {
     text-align: center;
     font-weight: 700;
     font-size: 3rem;
+    width: 100%;
 }
-.navbar{
+
+.navbar {
     justify-content: space-around;
-    padding:20px 400px !important;
+    background: white;
 }
-.row{
-    margin:0 !important;
+
+.bar a {
+    margin-left: 20px;
 }
-.p0{
-    padding: 0;
+
+.row {
+    margin: 0 !important;
 }
-.m0{
-    margin:0;
+
+.nicon {
+    font-size: 1.3rem;
+    margin-left: 30px;
 }
-.main{
+
+.nicon i {
+    margin-left: 20px;
+}
+
+.main {
     display: flex;
     justify-content: center;
     text-align: center;
     border-bottom: 2px solid rgb(151, 61, 23);
 }
-.main i{
+
+.main i {
     font-size: 5rem;
-    color:rgb(151, 61, 23);
+    color: rgb(151, 61, 23);
 }
-.icon p{
+
+.icon p {
     font-size: 2rem !important;
     font-weight: 600;
 }
-.pic{
-    margin:auto;
+
+.pic {
+    margin: auto;
     justify-content: space-around;
 }
-.pic img{
-    width:100%;
+
+.pic img {
+    width: 100%;
 }
-.pic1{
+
+.pic1 {
     text-align: left;
-    margin:30px 0px;
+    margin: 30px 0px;
 }
-.pic1 p{
+
+.pic1 p {
     font-size: 1rem !important;
 }
-.pic1 h2{
+
+.pic1 h2 {
     margin-top: 20px;
     font-size: 1.3rem;
 }
-.word{
+
+.word {
     border-bottom: 2px solid rgb(151, 61, 23);
 }
-.beach{
-    margin-left:30px;
+
+.beach {
+    margin-left: 30px;
 }
-.wtext{
+
+.wtext {
     text-align: center;
-    padding:60px;
-    margin:auto;
+    padding: 60px;
+    margin: auto;
 }
-.wtext p{
+
+.wtext p {
     font-size: 1.5rem;
     font-weight: 700;
 }
-.wtext span{
+
+.wtext span {
     font-size: 1.8rem;
-    font-weight:bold;
+    font-weight: bold;
 }
-.wtext .btn{
+
+.wtext .btn1 {
     background: rgb(151, 61, 23);
-    color:white !important;
-    padding:10px 20px;
-    margin:20px;
+    color: white !important;
+    padding: 10px 20px;
+    margin: 20px;
 }
-.apc{
+
+.apc {
     margin-bottom: 50px;
 }
-.apc p{
+
+.apc p {
     text-align: center;
     font-weight: 700;
-    margin:20px;
+    margin: 20px;
     font-size: 2rem;
 }
-.pink{
+
+.pink {
     background: rgb(245, 196, 196);
-    padding:50px;
+    padding: 50px;
 }
-.pink .line{
+
+.pink .line {
     border-bottom: 2px solid rgb(151, 61, 23);
     text-align: left;
     padding-bottom: 10px;
 }
-.pink .btn{
-    background: rgb(245, 196, 196);
+
+.pink .btn2 {
     border: 1px solid rgb(151, 61, 23);
-    color:rgb(151, 61, 23) !important;
-    border-radius: 0 !important;
+    color: rgb(151, 61, 23) !important;
+    width:18%;
+    padding: 10px;
+    margin-top: 20px;
 }
 
+input {
+    outline: none;
+}
+
+input[type="text"] {
+    padding: 5px 15px;
+    border: 2px rgb(151, 61, 23) solid;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+@media(max-width:768px) {
+    .nav {
+        justify-content: space-between;
+    }
+
+    .navbar {
+        margin-left: auto;
+    }
+
+    .mdimg {
+        display: none;
+    }
+
+    .bar {
+        display: none;
+    }
+
+    .logo {
+        margin-left: 20px;
+        width: auto;
+    }
+
+    .explain1 {
+        margin-top: 50px;
+        position: unset;
+        width: 100%;
+    }
+
+    .btn {
+        z-index: 1500;
+    }
+
+    .beach {
+        margin: auto;
+    }
+
+}
+
+@media (min-width:768px) {
+    .img {
+        display: none;
+    }
+
+    .btn {
+        display: none !important;
+    }
+}

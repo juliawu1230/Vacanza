@@ -28,7 +28,7 @@
         $('document').ready(function () {
             $(window).scroll(function () {
                 var sh = $(window).scrollTop();
-                
+
                 if (sh > 50) {
                     $('.nav').addClass('boxshadow');
                 } else {
@@ -36,7 +36,7 @@
                 }
                 if (sh > 1000) {
                     $('.column').addClass('top');
-                    
+
                 } else {
                     $('.column').removeClass('top');
                 }
@@ -48,107 +48,126 @@
 
 <body>
     <div class="nav container-fluid align-items-center">
-        <div class="logo container-fluid">
+        <div class="logo">
             Vacanza
         </div>
-        <div class="navbar container-fluid">
-            <a href="#">New</a>
-            <a href="#">Best Seller</a>
-            <a href="#">Wish List</a>
-            <a href="#">All Items</a>
-            <a href="#">Story</a>
+        <div class="navbar">
+            <div class="bar">
+                <a href="#">New</a>
+                <a href="#">Best Seller</a>
+                <a href="#">Wish List</a>
+                <a href="#">All Items</a>
+                <a href="#">Story</a>
+            </div>
+
             <div class="nicon">
                 <a href=""><i class="fas fa-search"></i></a>
                 <a href=""><i class="fas fa-user-circle"></i></a>
                 <a href=""><i class="fas fa-shopping-cart"></i></a>
             </div>
+
+        </div>
+        <div class="navright">
+            <a class="btn" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
+                aria-controls="collapseExample">
+                <img src="images/menu_light.png" width="35" height="35">
+            </a>
+
+        </div>
+        <div class="collapse w-100" id="collapseExample">
+            <div class="card card-body cardright">
+                <a href="#">New</a>
+                <a href="#">Best Seller</a>
+                <a href="#">Wish List</a>
+                <a href="#">All Items</a>
+                <a href="#">Story</a>
+            </div>
         </div>
     </div>
 
 
-
     <div class="main">
-        
+
         <div class="row container-fluid ">
-            <div class="col-3 mb-5">
-                <div class="column">
-                    <a href="#" class="title">Event</a>
-                    <a href="#">成雙成對·2件2020元</a>
-                    <a href="#">成雙成對·4件4040元</a>
-                    <a href="#" class="title">Tops</a>
-                    <a href="#">T恤</a>
-                    <a href="#">針織衫</a>
-                    <a href="#">襯衫｜罩衫</a>
-                    <a href="#" class="title">Bottoms</a>
-                    <a href="#">長褲</a>
-                    <a href="#">牛仔褲</a>
-                    <a href="#">裙子</a>
-                    <a href="#" class="title">Outerwear</a>
-                    <a href="#">大衣 / 風衣</a>
-                    <a href="#">夾克 / 短外套</a>
-                    <a href="#">西裝外套</a>
-                    <a href="#">套裝</a>
-                </div>
+            <div class="col-md-3 col-lg-2 mb-5 column">
+
+                <a href="#" class="title">Event</a>
+                <a href="#">成雙成對·2件2020元</a>
+                <a href="#">成雙成對·4件4040元</a>
+                <a href="#" class="title">Tops</a>
+                <a href="#">T恤</a>
+                <a href="#">針織衫</a>
+                <a href="#">襯衫｜罩衫</a>
+                <a href="#" class="title">Bottoms</a>
+                <a href="#">長褲</a>
+                <a href="#">牛仔褲</a>
+                <a href="#">裙子</a>
+                <a href="#" class="title">Outerwear</a>
+                <a href="#">大衣 / 風衣</a>
+                <a href="#">夾克 / 短外套</a>
+                <a href="#">西裝外套</a>
+                <a href="#">套裝</a>
+
             </div>
-            <div class="col-8">
+            <div class="col-12 col-md-8 col-lg-7 seller">
                 <div class="pic">
                     <div class="row">
-                        <div class="pic1 col-4">
+                        <div class="pic1 col-md-4 col-6">
                             <img src="images/05b22fc91081860fd7b325e9bd4b0a37.jpg">
                             <h2>Accessory</h2>
                             <p>Contrary to popular belief</p>
                         </div>
-                        <div class="pic1 col-4">
+                        <div class="pic1 col-md-4 col-6">
                             <img src="images/05b22fc91081860fd7b325e9bd4b0a37.jpg">
                             <h2>Accessory</h2>
                             <p>Contrary to popular belief</p>
                         </div>
-                        <div class="pic1 col-4">
+                        <div class="pic1 col-md-4 col-6">
                             <img src="images/05b22fc91081860fd7b325e9bd4b0a37.jpg">
                             <h2>Accessory</h2>
                             <p>Contrary to popular belief</p>
                         </div>
-                        <div class="pic1 col-4">
+                        <div class="pic1 col-md-4 col-6">
                             <img src="images/05b22fc91081860fd7b325e9bd4b0a37.jpg">
                             <h2>Accessory</h2>
                             <p>Contrary to popular belief</p>
                         </div>
-                        <div class="pic1 col-4">
+                        <div class="pic1 col-md-4 col-6">
                             <img src="images/05b22fc91081860fd7b325e9bd4b0a37.jpg">
                             <h2>Accessory</h2>
                             <p>Contrary to popular belief</p>
                         </div>
-                        <div class="pic1 col-4">
+                        <div class="pic1 col-md-4 col-6">
                             <img src="images/05b22fc91081860fd7b325e9bd4b0a37.jpg">
                             <h2>Accessory</h2>
                             <p>Contrary to popular belief</p>
                         </div>
-                        <div class="pic1 col-4">
+                        <div class="pic1 col-md-4 col-6">
                             <img src="images/05b22fc91081860fd7b325e9bd4b0a37.jpg">
                             <h2>Accessory</h2>
                             <p>Contrary to popular belief</p>
                         </div>
-                        <div class="pic1 col-4">
+                        <div class="pic1 col-md-4 col-6">
                             <img src="images/05b22fc91081860fd7b325e9bd4b0a37.jpg">
                             <h2>Accessory</h2>
                             <p>Contrary to popular belief</p>
                         </div>
-                        <div class="pic1 col-4">
+                        <div class="pic1 col-md-4 col-6">
                             <img src="images/05b22fc91081860fd7b325e9bd4b0a37.jpg">
                             <h2>Accessory</h2>
                             <p>Contrary to popular belief</p>
                         </div>
-                        <div class="pic1 col-4">
+                        <div class="pic1 col-md-4 col-6">
                             <img src="images/05b22fc91081860fd7b325e9bd4b0a37.jpg">
                             <h2>Accessory</h2>
                             <p>Contrary to popular belief</p>
                         </div>
-                        <div class="pic1 col-4">
+                        <div class="pic1 col-md-4 col-6">
                             <img src="images/05b22fc91081860fd7b325e9bd4b0a37.jpg">
                             <h2>Accessory</h2>
                             <p>Contrary to popular belief</p>
                         </div>
-                        <div class="pic1 col-4">
+                        <div class="pic1 col-md-4 col-6">
                             <img src="images/05b22fc91081860fd7b325e9bd4b0a37.jpg">
                             <h2>Accessory</h2>
                             <p>Contrary to popular belief</p>
@@ -161,28 +180,28 @@
     <div class="footer">
         <div class="container">
             <div class="row">
-                <div class="col-2">
+                <div class="col-md-2 col-12">
                     <p class="title">INFO</p>
                     <p>FAQs</p>
                     <p>How to buy</p>
                     <p>Shipping</p>
                     <p>Returns</p>
                 </div>
-                <div class="col-2">
+                <div class="col-md-2 col-12">
                     <p class="title">Vacanza</p>
                     <p>About us</p>
                     <p>Affiliates</p>
                     <p>MEDIA</p>
                     <p>Privacy Policying</p>
                 </div>
-                <div class="col-3">
+                <div class="col-md-3 col-12">
                     <p class="title">GET IN TOUCH</p>
                     <p>write us, we always write back.</p>
-                        <p>service@mouggan.com</p>
-                        <p>165 ANTI FRAUD</p>
+                    <p>service@mouggan.com</p>
+                    <p>165 ANTI FRAUD</p>
                 </div>
                 <div class="col-1"></div>
-                <div class="col-4">
+                <div class="col-md-4 col-12">
                     <p class="title">NEWSLETTER</p>
                     <i class="far fa-envelope-open"></i>
                     <input type="text" class="input">
